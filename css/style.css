@@ -1,0 +1,259 @@
+.mainicon {
+    height: 70px;
+}
+
+.maintext {
+    font-family: 'Quintessential', cursive;
+    min-height: 70px;
+    font-size: 32px;
+    margin-top: 10px;
+    //margin-left: 20px;
+}
+
+.search {
+    max-height: 40px;
+    //margin-left: 200px;
+    margin-top: 15px;
+    padding-right: 500px;
+    border-radius: 13px;
+    border: solid black 1px;
+}
+
+.icon {
+    height: 30px;
+    width: 30px;
+    margin-top: 15px;
+}
+
+.container-fluid{
+    padding: 0!important;
+}
+
+.mynav {
+    max-height: 90px;
+    background-color: white;
+    //position: fixed;
+}
+body > div{
+    transition: all 1s ease-out;
+}
+.fixed-top {
+    //max-width: 1140px;
+    transition: 0.2 all linear;
+}
+.change-fixed-top{
+    background: white;
+}
+
+.mainimg {
+   background-image: url(../img/header-min.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 789px;
+}
+
+.textheader {
+    font-family: 'Raleway', sans-serif;
+    margin-top: 150px;
+    font-size: 50px;
+    z-index: +1;
+    position: relative;
+}
+#rectangle {
+    width: 290px;
+    height: 60px;
+    background: #F0D5DE;
+    transform: translate(-50px, -90px);
+}
+.secondtext {
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    width: 600px;
+}
+
+.buttom {
+    width: 180px;
+    border-radius: 15px;
+    background-color: #F0D5DE;
+    padding: 5px;
+    font-size: 20px;
+    border: solid black 0px;
+}
+#rectangletwo {
+    width: 190px;
+    height: 60px;
+    background: #F0D5DE;
+    transform: translate(-60px, -90px);
+}
+.oneimg {
+    height: 500px;
+    width: 380px;
+}
+
+.twoimg {
+    height: 500px;
+    width: 650px;
+}
+
+.about_us_img {
+   background-image: url(../img/aboutus3.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 620px;
+   margin-top: 100px;
+   background-attachment: fixed;
+   background-position: center;
+}
+
+.aboutusheader {
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 140px;
+}
+
+.aboutustext {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    color: white;
+    padding-top: 40px;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.block {
+    background-color: #F0D5DE;
+    height: 400px;
+}
+
+.textreview {
+    padding: 6% !important;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+}
+
+.imgtext {
+    height: 400px;
+}
+
+.twotext {
+    margin-top: 100px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    margin-bottom: 60px;
+}
+
+.imgblog {
+    height: 250px;
+}
+#rectanglethree {
+    width: 280px;
+    height: 50px;
+    background: #F0D5DE;
+    transform: translate(-40px, -40px);
+}
+.textblock {
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    padding-left: 5%;
+}
+
+.foot {
+    height: 120px;
+    background-color: #202020;
+    margin-top: 50px;
+}
+
+.foottxt {
+    color: white;
+    font-size: 20px;
+}
+a:hover{
+    text-decoration: none !important;
+}
+.buttom:hover{
+    border: 1px solid #F0D5DE;
+    color: #F0D5DE;
+    background-color: white;
+    transition: .3s ease;
+}
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.hovercontainer:hover .overlay {
+  opacity: 1;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #F0D5DE;
+}
+.hovercontainer {
+  position: relative;
+}
+
+.moverlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.moverlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.moverlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.moverlay a:hover, .moverlay a:focus {
+  color: #f1f1f1;
+}
+
+.moverlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .moverlay a {font-size: 20px}
+  .moverlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
